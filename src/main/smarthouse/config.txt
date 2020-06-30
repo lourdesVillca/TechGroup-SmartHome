@@ -1,0 +1,11 @@
+create-sensor=Motion
+create-device=Motion,Light,Off
+create-device=Motion,Television,Off
+create-device=Motion,Alarm,Off
+create-sensor=Temperature
+create-device=Temperature,Air Conditioning,20
+update-sensor=Motion,true
+update-sensor=Temperature,30
+update-sensor=Motion,false
+remove-device=Motion,Television
+create-device=Motion,Television,Off
